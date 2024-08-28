@@ -1,23 +1,23 @@
-// document.querySelector('.name-input').addEventListener('input', function () {
+document.querySelector('.name-input').addEventListener('input', function () {
    
-//     const input = this.value.trim();
-//     const output = document.getElement(`name-output`);
-//     output.textContent = input !== `` ? input : `Anonymous`;
-// });
+    const input = this.value.trim();
+    const output = document.getElement(`name-output`);
+    output.textContent = input !== `` ? input : `Anonymous`;
+});
 
 
-// const inputName = document.querySelector('#name-input');
-// const outputName = document.querySelector('#name-output');
+const inputName = document.querySelector('#name-input');
+const outputName = document.querySelector('#name-output');
 
-// inputName.addEventListener('input', () => {
+inputName.addEventListener('input', () => {
   
-//   const newValue = inputName.value.trim();
+  const newValue = inputName.value.trim();
 
 
-//   if (newValue === '') {
-//     outputName.textContent = 'Anonymous';
-//   } else {
-//     outputName.textContent = newValue;
-//   }
-// });
+  if (newValue === '') {
+    outputName.textContent = 'Anonymous';
+  } else {
+    outputName.textContent = newValue;
+  }
+});
 
