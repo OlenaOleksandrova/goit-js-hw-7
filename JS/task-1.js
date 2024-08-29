@@ -9,3 +9,5 @@ categories.forEach((category) => {
     console.log(title);
     console.log(itemAllCaunt);
 });
+
+

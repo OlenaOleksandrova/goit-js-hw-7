@@ -1,7 +1,5 @@
-// 1.2
 const loginNew = document.querySelector('.login-form').addEventListener('submit', (event) => {
     event.preventDefault();
-
 
 
     const { email, password } = event.target.elements;
@@ -19,4 +17,3 @@ const formData = {
 console.log(formData);
 // loginNew.reset();
 });
-
